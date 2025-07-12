@@ -42,7 +42,7 @@ app.use("/api/seo-custom-fields", seoCustomFieldsRoutes);
 
 // Health check   
 app.get("/api/health", (req, res) => {
-  res.json({ status: "OK", message: "Admin Panel API is running" });
+  res.json({ status: "OK", message: "Admin Panel API is running sucessfully" });
 });
 
 const PORT = process.env.PORT || 5000;
